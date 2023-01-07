@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .logo {
+  padding-left: 20px;
+}
+
+.navbar-left .logo span {
+  color: white;
+}
+
+.navbar-left .menu {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar-left .menu a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.navbar-left .menu a:hover {
+  text-decoration: underline;
+}
+
+.navbar-left > * {
+  padding: 20px;
+}
+
+.navbar-right .search-bar {
+  margin-left: 500px;
+}
+
+.navbar-right .search-bar input {
+  border: none;
+  border-radius: 6px;
+  height: 25px;
+  width: 250px;
+}
+
+.navbar-right > * {
+  padding: 20px;
+}
+
+.container {
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.container .movies img {
+  width: 300px;
+  border-radius: 6px;
+}
+
